@@ -1,0 +1,23 @@
+{
+    "name": "alex/app-salon_php_mvc_js_sass",
+    "description": "Projecto PHP 8 MVC SQL SASS GULP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Alex\\AppSalonPhpMvcJsSass\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Veluu"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
